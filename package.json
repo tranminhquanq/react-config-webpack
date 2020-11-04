@@ -5,7 +5,7 @@
   "main": "webpack-dev-server",
   "scripts": {
     "start": "webpack-dev-server --open",
-    "build": "webpack --config prod.config.js"
+    "build": "webpack --config webpack.config.js"
 
   },
   "keywords": [],
