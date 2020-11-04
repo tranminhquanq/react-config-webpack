@@ -1,15 +1,23 @@
-Step 1: mkdir react-webpack && cd react-webpack
-Step 2: npm install --save-dev @types/react-dom @types/react awesome-typescript-loader html-webpack-plugin source-map-loader typescript webpack webpack-cli webpack-dev-server
+## Step 1:
 
-npm install react react-dom
+- mkdir react-webpack && cd react-webpack
 
-Step 3:
-mkdir src
-cd src
-touch index.html webpack.config.js tsconfig.json App.tsx index.tsx
+## Step 2:
 
-Step 4:
-Coppy past in webpack.config.js file:
+- npm i -y
+- npm install --save-dev @types/react-dom @types/react awesome-typescript-loader html-webpack-plugin source-map-loader typescript webpack webpack-cli webpack-dev-server
+
+- npm install react react-dom
+
+## Step 3:
+
+- mkdir src
+- cd src
+- touch index.html webpack.config.js tsconfig.json App.tsx index.tsx
+
+## Step 4:
+
+**Copy and paste the code shown below into the webpack.config.js file**
 
 ```js
 const path = require("path");
@@ -41,9 +49,9 @@ module.exports = {
 };
 ```
 
-Step 5:
+## Step 5:
 
-coppy past in tsconfig.json
+**Copy and paste the code shown below into the tsconfig.json file**
 
 ```js
 {
